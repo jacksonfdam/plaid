@@ -1,7 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
-
 <!--
-  Copyright 2015 Google Inc.
+  Copyright 2015 Google LLC.
 
   Licensed under the Apache License, Version 2.0 (the "License");
   you may not use this file except in compliance with the License.
@@ -21,7 +20,9 @@
         android:height="24dp"
         android:viewportWidth="48"
         android:viewportHeight="48">
+
     <path
         android:pathData="M40,22H15.7l11.2-11.2L24,8L8,24l16,16l2.8-2.8L15.7,26H40V22z"
         android:fillColor="@android:color/white"/>
+
 </vector>

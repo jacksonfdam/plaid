@@ -1,5 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
 <!--
-  Copyright 2015 Google Inc.
+  Copyright 2015 Google LLC.
 
   Licensed under the Apache License, Version 2.0 (the "License");
   you may not use this file except in compliance with the License.
@@ -13,42 +14,30 @@
   See the License for the specific language governing permissions and
   limitations under the License.
   -->
-<vector xmlns:android="http://schemas.android.com/apk/res/android"
-        android:width="24dp"
-        android:height="24dp"
-        android:viewportWidth="@integer/comment_lines_add_viewport_width"
-        android:viewportHeight="@integer/comment_lines_add_viewport_height">
+
+<vector
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:width="24dp"
+    android:height="24dp"
+    android:viewportHeight="@integer/comment_lines_add_viewport_height"
+    android:viewportWidth="@integer/comment_lines_add_viewport_width">
 
     <path
         android:name="comment_bubble"
         android:pathData="@string/path_comment_bubble"
-        android:fillColor="@color/comment_bubble" />
+        android:fillColor="?attr/colorControlNormal" />
 
     <group
-        android:name="@string/comment_line_add_group"
+        android:name="@string/comment_lines_add_group"
         android:pivotX="@integer/comment_lines_add_center_x"
         android:pivotY="@integer/comment_lines_add_center_y">
 
         <path
-            android:name="@string/comment_line_1"
-            android:pathData="@string/path_comment_line_1"
-            android:strokeWidth="@integer/comment_line_stroke_width"
+            android:name="@string/comment_lines"
+            android:pathData="@string/path_comment_lines"
+            android:strokeColor="?attr/colorSurface"
             android:strokeLineCap="square"
-            android:strokeColor="@color/comment_line_stroke_color" />
-
-        <path
-            android:name="@string/comment_line_2"
-            android:pathData="@string/path_comment_line_2"
-            android:strokeWidth="@integer/comment_line_stroke_width"
-            android:strokeLineCap="square"
-            android:strokeColor="@color/comment_line_stroke_color" />
-
-        <path
-            android:name="@string/comment_line_3"
-            android:pathData="@string/path_comment_line_3"
-            android:strokeWidth="@integer/comment_line_stroke_width"
-            android:strokeLineCap="square"
-            android:strokeColor="@color/comment_line_stroke_color" />
+            android:strokeWidth="@integer/comment_line_stroke_width" />
 
     </group>
 
